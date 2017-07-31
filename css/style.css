@@ -1,0 +1,208 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	nav.navbar {
+		background: black;
+	}
+	nav .navbar-header a img {
+	position: absolute;
+    top: -14px;
+    left: 30px;
+    width: 31%;
+	}
+
+	.home {
+		background-image: url(../img/home2.jpg);
+		width: 100%;
+		height: 100%;
+	}
+	
+
+}
+
+
+body {overflow-x: hidden;}
+.home {
+	background-image: url('../img/home.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100vh;
+	padding: 250px 0px;
+	position: relative;
+	color: white;
+}
+
+.home:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	background: rgba(0,0,0,.3);
+}
+
+.navbar-default {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white;	
+    background-color: transparent;
+    border-bottom: 2px solid white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    padding-bottom: 37px;
+}
+
+nav.navbar form input.form-control {
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-right: none;
+}
+nav.navbar form button.btn {
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-left: none;
+}
+
+.form-control {
+	height: 40px;
+}
+.btn {
+	padding: 9px 12px;
+}
+
+nav.navbar {padding-top: 20px;}
+
+.container a {
+	margin-top: 30px;
+	border-radius: 50px;
+}
+.container p {
+	    margin: 15px 0 10px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: rgba(37, 172, 193, .8);
+}
+
+nav.navbar form input.form-control:focus {
+	box-shadow: none;
+	border-color: transparent;
+	background-color: white;
+}
+nav.navbar form input.form-control:hover {
+	background-color: #ddd;
+}
+nav .navbar-header a img {
+	position: absolute;
+	top: -33px;
+	left: 30px;
+}
+.team {
+	background-color: #2e3b4e;
+	width: 100%;
+	height: 50vh;
+	color: white;
+}
+.team h5, p {
+	text-align: left;
+	text-align: justify;
+}
+.team2 {
+	background-image: url(../img/team.jpg);
+	position: relative;
+	width: 100%;
+	height: 50vh;
+	color: white;
+	text-align: justify;
+}
+.team2:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-color: rgba(194, 85, 106, .6);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.team2 .btn.btn-info {
+	border-radius: 50px;
+}
+.services {
+	width: 100%;
+	height: 50vh;
+}
+.services .img {
+	background-image: url(../img/services.png);
+	width: 100%;
+	height: 50vh;
+}
+.services .text {
+	width: 100%;
+	height: 50vh;
+}
+.services .text h5 p {
+	color: black;
+
+}
+.services2 {
+	position: relative;
+	background-image: url(../img/services2.jpg);
+	width: 100%;
+	height: 50vh;
+	color: white;
+
+}
+.services2 p, h3 {
+	text-align: center;
+}
+.services2:before {
+	background-color: rgba(91, 45, 107, .9);
+	content: '';
+	position: absolute;
+	top: 80px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+.services2 .btn.btn-info {
+	border-radius: 50px;
+}
+.work {
+	background-image: url(../img/work.jpg);
+	width: 100%;
+	height: 75vh;
+	color: white;
+}
+.work img {
+	width: 60px;
+	height: 60px;
+	display: inline;
+}
+.work .btn.btn-info {
+	border-radius: 50px;
+}
+.contact {
+	width: 100%;
+	height: 50vh;
+}
+.contact .img {
+	background-image: url(../img/contact.jpg);
+	width: 96.2vh;
+	height: 50vh;
+}
+.contact2 {
+	background-color: #e7516a;
+	width: 100%;
+	height: 50vh;
+	color: white;
+}
+.contact3 {
+	color: white;
+	background-color: #2e3b4e;
+	width: 100%;
+	height: 50vh;
+}
